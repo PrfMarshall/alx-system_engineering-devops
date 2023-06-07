@@ -1,0 +1,5 @@
+#!/bin/bash
+if [ -f ~/.previous_dir ]; then
+  prev_dir=$(cat ~/.previous_dir)
+  cd "$prev_dir"
+fi
