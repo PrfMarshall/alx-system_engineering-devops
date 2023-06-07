@@ -1,2 +1,2 @@
 #!/bin/bash
-ls --ignor=zozo
+ls --ignore=zozo
